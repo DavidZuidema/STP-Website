@@ -1,0 +1,92 @@
+@charset "UTF-8";
+
+/*
+Color Scheme from Adobe Kuler:
+
+Base: 29C4F3
+Lighter: 45D4FF
+Darker: 0080A6
+
+Light Compliment: F38D29
+Dark Compliment: A65A10
+*/
+
+body {
+	font: 100%/1.4 'Droid Sans', Verdana, Times;
+	background: #FFF;
+	margin: 0;
+	padding: 0;
+	color: #A65300;
+}
+h1, h2, h3, h4, h5, h6, p {
+	margin-top: 0;
+	background:#FFF;
+	padding-right: 15px;
+	padding-left: 15px;
+}
+h1 {
+	font-family: "Droid Sans", Helvetica, sans-serif;
+	font-size: 1.4em;
+	color: #0E83A6;
+}
+h2 {
+	font-family: "Droid Sans", Helvetica, sans-serif;
+	font-size: 1.2em;
+	text-align: center;
+}
+p {
+	line-height: 1.8em;
+	text-align: justify;
+}
+a img { 
+	border: none;
+}
+a:link {
+	color: #42413C;
+	text-decoration: underline;
+}
+a:visited {
+	color: #6E6C64;
+	text-decoration: underline;
+}
+a:hover, a:active, a:focus { 
+	text-decoration: none;
+}
+.container {
+	width: 700px;
+	background: #FFF;
+	margin: 0 auto;
+}
+.content {
+	background:#FFF;
+	padding: 10px 0;
+}
+.textField {
+	width: 200px;
+	height: 25px;
+}
+fieldset {
+	border: none;
+}
+form {
+	margin-left: 50px;
+}
+form label {
+	display: block;
+	vertical-align: top;
+	font-size: 1em;
+	text-align: left;
+	clear: left;
+	margin-right: .75em;
+}
+.copyright{
+	text-align: center;
+	color: #F38E29;
+}
+
+.emphasis {
+	font-style: italic;
+}
+.centered{
+	text-align: center;
+}
