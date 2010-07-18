@@ -29,12 +29,12 @@ table, caption, tbody, tfoot, thead, tr, th, td {
   vertical-align: baseline;
 }
 
+/* Section Id Styles */
 body {
 	font-family: 'Droid Sans', Helvetica, Arial, sans-serif;
 	background: #29C4F3
 	;
 }
-
 #wrapper {
 	width: 45em;
 	background: #FFF;
@@ -44,7 +44,6 @@ body {
 	-khtml-border-radius: 1.5em;
 	border-radius: 1.5em;
 }
-
 #header {
   text-align: left;
   background: #FFF;
@@ -57,14 +56,10 @@ body {
   padding: 3em 1.5em;
   text-align: center;
 }
-
-/*
-#menu {
+/* Disabled #menu {
 	padding: 1em;
 	background: #B77E2C;
-}
-*/
-
+} */
 #content {
 	background:#FFF;
 	padding: 2em;
@@ -76,6 +71,17 @@ body {
   border-bottom-right-radius: 1em;
 }
 
+/* Text Styles */
+h1 {
+	font-size: 1.4em;
+	color: #0E83A6;
+	padding: 1em;
+}
+#content p {
+	line-height: 1.8em;
+	text-align: justify;
+	padding: 0.5em 2em;
+}
 #footer p {
 	margin-bottom: 2em;
 	padding: 0.5em;
@@ -84,36 +90,20 @@ body {
 	text-align: center;
 }
 
-h1 {
-	font-size: 1.4em;
-	color: #0E83A6;
-}
-
-h2 {
-	font-size: 1.2em;
-	text-align: center;
-}
-
-#content p {
-	line-height: 1.8em;
-	text-align: justify;
-	padding: 0.5em 2em;
-}
-
+/* Link Styles */
 a:link {
 	color: #42413C;
 	text-decoration: underline;
 }
-
 a:visited {
 	color: #6E6C64;
 	text-decoration: underline;
 }
-
 a:hover, a:active, a:focus { 
 	text-decoration: none;
 }
 
+/* Form Styles */
 fieldset {
 	border: none;
 }
@@ -128,19 +118,12 @@ form label {
 	clear: left;
 	margin-right: .75em;
 }
-
 .textField {
 	width: 200px;
 	height: 25px;
 }
 
+/* Misc Extra Classes */
 .emphasis {
 	font-style: italic;
-}
-
-.rounded-corners {
-    -moz-border-radius: 20px;
-    -webkit-border-radius: 20px;
-    -khtml-border-radius: 20px;
-    border-radius: 20px;
 }
