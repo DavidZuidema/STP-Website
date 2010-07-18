@@ -7,10 +7,7 @@ Base: 29C4F3
 Lighter: 45D4FF
 Darker: 0080A6
 
-135D73
-1E91B3
-092A34
-
+Icon Brown: B77E2C
 Light Compliment: F38D29
 Dark Compliment: A65A10
 */
@@ -57,14 +54,16 @@ body {
   -webkit-border-top-right-radius: 1em;
   border-top-left-radius: 1em;
   border-top-right-radius: 1em;
-  padding: 1.5em;
+  padding: 3em 1.5em;
   text-align: center;
 }
 
+/*
 #menu {
 	padding: 1em;
-	background: #29C4F3;
+	background: #B77E2C;
 }
+*/
 
 #content {
 	background:#FFF;
@@ -95,7 +94,7 @@ h2 {
 	text-align: center;
 }
 
-p {
+#content p {
 	line-height: 1.8em;
 	text-align: justify;
 	padding: 0.5em 2em;
@@ -138,9 +137,7 @@ form label {
 .emphasis {
 	font-style: italic;
 }
-.centered{
-	text-align: center;
-}
+
 .rounded-corners {
     -moz-border-radius: 20px;
     -webkit-border-radius: 20px;
