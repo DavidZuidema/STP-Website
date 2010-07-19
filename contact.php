@@ -4,12 +4,20 @@
 		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 		<title>Sneaky Tiki Productions</title>
 		<link href='http://fonts.googleapis.com/css?family=Droid+Sans' rel='stylesheet' type='text/css'>
-		<link href="main.css" rel='stylesheet' type="text/css" />
+		<link href="tMain.css" rel='stylesheet' type="text/css" />
 	</head>
 	<body>
 		<div id="wrapper">
 			<div id="header">
-				<img src="_images/Sneaky Tiki Productions Logo med.png" alt="Sneaky Tiki Productions Logo" />
+				<img src="_images/Sneaky Tiki Productions Logo small.png" alt="Sneaky Tiki Productions Logo" />
+				<div id="nav" class="clearfix">
+					<ul>
+						<li><a href="tContact.php" class="last">Contact Us!</a></li>
+						<li><a href="tPortfolio.htm">Our Clients</a></li>
+						<li><a href="tAbout.htm">Our Story</a></li>
+						<li><a href="tIndex.htm">Home</a></li>
+					</ul>
+				</div><!-- #nav -->
 			</div><!-- #header -->
 			<div id="content">
 				<?php 
@@ -25,13 +33,12 @@
 
 				  echo "<h1>Thanks for the message!</h1><p>David responds to his email twice daily and always within 24 hours."; 
 				?>
-				<p><a href="index.htm">Back</a></p>
 			</div><!-- #content -->
 		</div><!-- #wrapper -->
 		<div id="footer">
-			<p class=copyright>&copy; 2010 Sneaky Tiki Productions. All Rights Reserved.</p>
+			<p>&copy; 2010 Sneaky Tiki Productions. All Rights Reserved.</p>
 		</div><!-- #footer -->
-		<!-- Google Analytics -->
+		<!-- Google Analytics
 		<script type="text/javascript">
 		  var _gaq = _gaq || [];
 		  _gaq.push(['_setAccount', 'UA-17439813-1']);
@@ -42,5 +49,13 @@
 		    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
 		  })();
 		</script>
+		<-->
 	</body>
 </html>
+
+<!--
+Before going live:
+-update stylesheet ref
+-update nav ref
+-enable google analytics
+-->

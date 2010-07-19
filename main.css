@@ -13,12 +13,10 @@ Dark Compliment: A65A10
 */
 
 /* Browser Reset */
-html, body, div, span, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, code,
-del, dfn, em, img, q, dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td {
+html, body, div, span, object, 
+h1, h2, h3, h4, h5, h6, p, 
+blockquote, a, code, em, img, 
+ol, ul, li, fieldset, form, label {
   margin: 0;
   padding: 0;
   border: 0;
@@ -29,48 +27,71 @@ table, caption, tbody, tfoot, thead, tr, th, td {
   vertical-align: baseline;
 }
 
-/* Section Id Styles */
+/* Background and White Box Styles */
 body {
 	font-family: 'Droid Sans', Helvetica, Arial, sans-serif;
 	background: #29C4F3
 	;
 }
 #wrapper {
-	width: 45em;
+	width: 60em;
 	background: #FFF;
 	margin: 2em auto 0;
 	-moz-border-radius: 1.5em;
 	-webkit-border-radius: 1.5em;
-	-khtml-border-radius: 1.5em;
 	border-radius: 1.5em;
 }
+
+/* Header Styles */
 #header {
   text-align: left;
   background: #FFF;
+  padding: 3em 0 3em 1em;
   -moz-border-radius-topleft: 1em;
-  -webkit-border-top-left-radius: 1em;
   -moz-border-radius-topright: 1em;
+  -webkit-border-top-left-radius: 1em;
   -webkit-border-top-right-radius: 1em;
   border-top-left-radius: 1em;
   border-top-right-radius: 1em;
-  padding: 3em 1.5em;
-  text-align: center;
 }
-/* Disabled #menu {
-	padding: 1em;
-	background: #B77E2C;
-} */
+#header img { float: left; }
+
+/* Navigation Bar Styles */
+#nav {
+	background: url("_images/navBar.gif") repeat-x;
+	margin-left: 240px;
+	margin-top: 65px;
+}
+#nav ul, li {
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+	display: block;
+	float: right;
+	text-align: center;
+}
+#nav a {
+	color: #A65A10;
+	text-decoration: none;
+	display: block;
+	width: 100px;
+	border-right: 1px solid #29C4F3;
+	padding: 8px 0;
+}
+#nav a:hover { color: #fff; }
+#nav a.end{ border: none; }
+#nav .active { color: #fff; }
+
+/* Main Content Styles */
 #content {
 	background:#FFF;
 	-moz-border-radius-bottomleft: 1em;
+	-moz-border-radius-bottomright: 1em;
   -webkit-border-bottom-left-radius: 1em;
-  -moz-border-radius-bottomright: 1em;
   -webkit-border-bottom-right-radius: 1em;
   border-bottom-left-radius: 1em;
   border-bottom-right-radius: 1em;
 }
-
-/* Text Styles */
 #content h1 {
 	padding: 0.5em 3em;
 	font-size: 1.5em;
@@ -81,28 +102,29 @@ body {
 	text-align: justify;
 	padding: 0.5em 6em;
 }
-#footer p {
-	margin-bottom: 2em;
-	padding: 0.5em;
-	color: #FFF;
-	font-size: 0.9em;
+#content p.emphasis {
+	font-style: italic;
+}
+#content .video {
+	padding: 30px 40px;
+}
+#content.screenshot {
 	text-align: center;
 }
-
 /* Link Styles */
-a:link {
+#content a:link {
 	color: #42413C;
 	text-decoration: underline;
 }
-a:visited {
+#content a:visited {
 	color: #6E6C64;
 	text-decoration: underline;
 }
-a:hover, a:active, a:focus { 
+#content a:hover, a:active, a:focus { 
 	text-decoration: none;
 }
 
-/* Form Styles */
+/* Contact Form Styles */
 fieldset {
 	border: none;
 }
@@ -123,13 +145,20 @@ form label {
 	height: 25px;
 }
 
-/* Misc Extra Classes */
-.emphasis {
-	font-style: italic;
-}
-.video {
-	padding: 30px 40px;
-}
-.screenshot {
+/* Copyright Footer Styles */
+#footer p {
+	margin-bottom: 2em;
+	padding: 0.5em;
+	color: #FFF;
+	font-size: 0.9em;
 	text-align: center;
+}
+
+/* Extra Class for Clearing Floats */
+.clearfix:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
 }
