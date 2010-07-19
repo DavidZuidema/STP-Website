@@ -12,8 +12,7 @@
 				<img src="_images/Sneaky Tiki Productions Logo med.png" alt="Sneaky Tiki Productions Logo" />
 			</div><!-- #header -->
 			<div id="content">
-				<?php
-				/* 
+				<?php 
 				  $to = "david@sneakytikiproductions.com";
 				  $name_field = $_POST['name'];
 				  $subject = "Message From $name_field!";
@@ -24,7 +23,6 @@
 
 				   mail($to, $subject, $body);
 
-				 */
 				  echo "<h1>Thanks for the message!</h1>/br<p>David responds to his email twice daily and always within 24 hours."; 
 				?>
 				<p><a href="index.htm">Back</a></p>
