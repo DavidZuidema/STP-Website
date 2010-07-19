@@ -29,7 +29,7 @@ ol, ul, li, fieldset, form, label {
 
 /* Background and White Box Styles */
 body {
-	font-family: 'Droid Sans', Helvetica, Arial, sans-serif;
+	font-family: 'Lucinda Grande', 'Lucinda Sans', sans-serif;
 	background: #29C4F3
 	;
 }
@@ -72,11 +72,12 @@ body {
 }
 #nav a {
 	color: #A65A10;
+	font-size: 0.9em;
 	text-decoration: none;
 	display: block;
 	width: 100px;
 	border-right: 1px solid #29C4F3;
-	padding: 8px 0;
+	padding: 7px 0;
 }
 #nav a:hover { color: #fff; }
 #nav a.end{ border: none; }
@@ -85,6 +86,7 @@ body {
 /* Main Content Styles */
 #content {
 	background:#FFF;
+	color: #0E83A6;
 	-moz-border-radius-bottomleft: 1em;
 	-moz-border-radius-bottomright: 1em;
   -webkit-border-bottom-left-radius: 1em;
@@ -95,22 +97,28 @@ body {
 #content h1 {
 	padding: 0.5em 3em;
 	font-size: 1.5em;
-	color: #0E83A6;
+}
+#content h2 {
+	font-size: 4em;
+	text-align: right;
+	padding-right: 1em;
+}
+#content h3	{
+	font-size: 3em;
+	text-align: right;
+	color: #A65A10;
+	padding-right: 5em;
 }
 #content p {
 	line-height: 1.8em;
 	text-align: justify;
 	padding: 0.5em 6em;
+	color: #000;
 }
-#content p.emphasis {
-	font-style: italic;
-}
-#content .video {
-	padding: 30px 40px;
-}
-#content.screenshot {
-	text-align: center;
-}
+#content p.emphasis {font-style: italic;}
+#content .video {padding: 30px 40px;}
+#content img {float: left;}
+.center {text-align: center;}
 /* Link Styles */
 #content a:link {
 	color: #42413C;
@@ -120,14 +128,10 @@ body {
 	color: #6E6C64;
 	text-decoration: underline;
 }
-#content a:hover, a:active, a:focus { 
-	text-decoration: none;
-}
+#content a:hover, a:active, a:focus {text-decoration: none;}
 
 /* Contact Form Styles */
-fieldset {
-	border: none;
-}
+fieldset {border: none;}
 form {
 	margin-left: 50px;
 	padding-bottom: 30px;
