@@ -62,7 +62,6 @@ body {
 } */
 #content {
 	background:#FFF;
-	padding: 2em;
 	-moz-border-radius-bottomleft: 1em;
   -webkit-border-bottom-left-radius: 1em;
   -moz-border-radius-bottomright: 1em;
@@ -72,15 +71,15 @@ body {
 }
 
 /* Text Styles */
-h1 {
-	font-size: 1.4em;
+#content h1 {
+	padding: 0.5em 3em;
+	font-size: 1.5em;
 	color: #0E83A6;
-	padding: 1em;
 }
 #content p {
 	line-height: 1.8em;
 	text-align: justify;
-	padding: 0.5em 2em;
+	padding: 0.5em 6em;
 }
 #footer p {
 	margin-bottom: 2em;
@@ -109,6 +108,7 @@ fieldset {
 }
 form {
 	margin-left: 50px;
+	padding-bottom: 30px;
 }
 form label {
 	display: block;
@@ -126,4 +126,7 @@ form label {
 /* Misc Extra Classes */
 .emphasis {
 	font-style: italic;
+}
+.video {
+	padding: 30px 40px;
 }
