@@ -23,7 +23,7 @@
 
 				   mail($to, $subject, $body);
 
-				  echo "<h1>Thanks for the message!</h1>/br<p>David responds to his email twice daily and always within 24 hours."; 
+				  echo "<h1>Thanks for the message!</h1><p>David responds to his email twice daily and always within 24 hours."; 
 				?>
 				<p><a href="index.htm">Back</a></p>
 			</div><!-- #content -->
