@@ -32,7 +32,6 @@ body {
 	font-family: 'Lucinda Grande', 'Lucinda Sans', sans-serif;
 	background-image: url('_images/background.jpeg');
 	background-repeat: no-repeat;
-	;
 }
 #wrapper {
 	width: 60em;
@@ -43,25 +42,9 @@ body {
 	border-radius: 1.5em;
 }
 
-/* Header Styles */
-#header {
-  text-align: left;
-	background-color: rgba(255,255,255,0.6);
-  padding: 3em 0 3em 1em;
-  -moz-border-radius-topleft: 1em;
-  -moz-border-radius-topright: 1em;
-  -webkit-border-top-left-radius: 1em;
-  -webkit-border-top-right-radius: 1em;
-  border-top-left-radius: 1em;
-  border-top-right-radius: 1em;
-}
-#header img { float: left; }
-
 /* Navigation Bar Styles */
 #nav {
 	background: url("_images/navBar.gif") repeat-x;
-	margin-left: 240px;
-	margin-top: 65px;
 }
 #nav ul, li {
 	list-style-type: none;
