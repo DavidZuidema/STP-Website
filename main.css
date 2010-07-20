@@ -35,11 +35,16 @@ body {
 
 #wrapper {
 	width: 60em;
-	background-color: rgba(255,255,255,0.8);
+	/*background-color: rgba(255,255,255,0.5);*/
 	margin: 2em auto 0;
 	-moz-border-radius: 1.5em;
 	-webkit-border-radius: 1.5em;
 	border-radius: 1.5em;
+}
+
+#header{
+	text-align: center;
+	margin-top: 30px;
 }
 
 /* Navigation Bar Styles */
@@ -74,28 +79,6 @@ body {
 #content h1 {
 	padding: 0.5em 3em;
 	font-size: 1.5em;
-}
-#content h2 {
-	font-size: 4em;
-	text-align: right;
-	padding-right: 1em;
-}
-#content h3	{
-	font-size: 3em;
-	text-align: right;
-	color: #A65A10;
-	padding-right: 5em;
-}
-#content p {
-	line-height: 1.8em;
-	text-align: justify;
-	padding: 0.5em 6em;
-	color: #000;
-	
-	filter:alpha(opacity=100);
-	-moz-opacity:1.0;
-	-khtml-opacity: 1.0;
-	opacity: 1.0;
 }
 #content p.emphasis {font-style: italic;}
 #content .video {padding: 30px 40px;}
