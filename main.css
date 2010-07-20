@@ -30,12 +30,12 @@ ol, ul, li, fieldset, form, label {
 /* Background and White Box Styles */
 body {
 	font-family: 'Lucinda Grande', 'Lucinda Sans', sans-serif;
-	background-image: url('_images/background.jpeg');
-	background-repeat: no-repeat;
+	background: url('_images/bg3.jpeg');
 }
+
 #wrapper {
 	width: 60em;
-	background-color: rgba(255,255,255,0.6);
+	background-color: rgba(255,255,255,0.8);
 	margin: 2em auto 0;
 	-moz-border-radius: 1.5em;
 	-webkit-border-radius: 1.5em;
@@ -69,14 +69,7 @@ body {
 
 /* Main Content Styles */
 #content {
-	background-color: rgba(255,255,255,0.6);
 	color: #0E83A6;
-	-moz-border-radius-bottomleft: 1em;
-	-moz-border-radius-bottomright: 1em;
-  -webkit-border-bottom-left-radius: 1em;
-  -webkit-border-bottom-right-radius: 1em;
-  border-bottom-left-radius: 1em;
-  border-bottom-right-radius: 1em;
 }
 #content h1 {
 	padding: 0.5em 3em;
