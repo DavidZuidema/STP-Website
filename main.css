@@ -30,7 +30,7 @@ ol, ul, li, fieldset, form, label {
 /* Background and White Box Styles */
 body {
 	font-family: 'Lucinda Grande', 'Lucinda Sans', sans-serif;
-	background: url('_images/bg3.jpeg');
+	background: url('_images/greyPaperBg.jpg');
 }
 
 #wrapper {
@@ -45,6 +45,11 @@ body {
 #header{
 	text-align: center;
 	margin-top: 30px;
+}
+#header h2 {
+	margin-top: 1em;
+	font-size: 1.5em;
+	color: #191919;
 }
 
 /* Navigation Bar Styles */
