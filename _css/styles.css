@@ -22,10 +22,16 @@ Dark Compliment: A65A10
 	color: #000;
 	text-decoration: none;
 	display: block;
-	width: 80px;
+	width: 6.5em;
 	border-right: 1px solid #000;
-	margin-top: 54px;
+	margin-top: 4.5em;
 }
 #nav a:hover { color: #fff; }
 #nav a.end{ border: none; }
 #nav .active { color: #fff; }
+
+#banner h1{
+	font-weight: 300;
+	font-size: 4em;
+	margin-top: 72px;
+}
