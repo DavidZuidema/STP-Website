@@ -29,13 +29,32 @@ Dark Compliment: A65A10
 	margin-top: 3em;
 	font-size: 1.5em;
 	font-weight: 300;
+	background-color: #fff;
 }
-#nav a:hover { color: #fff; }
+#nav a:hover { color: #777; }
 #nav a.end{ border: none; }
-#nav .active { color: #fff; }
+#nav a.active { color: #777; }
 
 #banner h1{
 	font-weight: 300;
 	font-size: 4em;
 	margin-top: 72px;
 }
+
+#metrics h2 {
+	font-size: 3em; 
+	font-weight: 300;
+}
+#metrics h3 {
+	font-size: 2em; 
+	font-weight: 300;
+	margin: .33em 0;
+}
+
+
+
+
+
+
+
+
