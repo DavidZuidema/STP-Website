@@ -17,6 +17,8 @@ Dark Compliment: A65A10
 	display: block;
 	float: right;
 	text-align: center;
+	margin: 0;
+	padding 0;
 }
 #nav a {
 	color: #000;
@@ -24,7 +26,9 @@ Dark Compliment: A65A10
 	display: block;
 	width: 6.5em;
 	border-right: 1px solid #000;
-	margin-top: 4.5em;
+	margin-top: 3em;
+	font-size: 1.5em;
+	font-weight: 300;
 }
 #nav a:hover { color: #fff; }
 #nav a.end{ border: none; }
