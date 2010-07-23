@@ -1,0 +1,32 @@
+@charset "UTF-8";
+
+/*
+Color Scheme from Adobe Kuler:
+
+Base: 29C4F3
+Lighter: 45D4FF
+Darker: 0080A6
+
+Icon Brown: B77E2C
+Light Compliment: F38D29
+Dark Compliment: A65A10
+*/
+
+#nav ul, li {
+	list-style-type: none;
+	display: block;
+	float: right;
+	text-align: center;
+}
+#nav a {
+	color: #A65A10;
+	font-size: 0.9em;
+	text-decoration: none;
+	display: block;
+	width: 100px;
+	border-right: 1px solid #29C4F3;
+	padding: 7px 0;
+}
+#nav a:hover { color: #fff; }
+#nav a.end{ border: none; }
+#nav .active { color: #fff; }
