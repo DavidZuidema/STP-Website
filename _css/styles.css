@@ -36,6 +36,14 @@ body {
 	top: 438px;
 	height: 756px;
 }
+.nobanner{
+	top: 106px;
+	height: 756px;
+	width: 100%;
+	position: absolute;
+	left: 0;
+	z-index: -1;
+}
 #nav ul, #nav li {
 	list-style-type: none;
 	display: block;
