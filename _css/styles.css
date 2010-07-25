@@ -15,8 +15,26 @@ body {
 	color: #222;
 }
 #header {
-	background-color: #464646;
+	/*background: url(../_images/headerbg.png) no-repeat;*/
 	padding: 6px	0;
+}
+.bg {
+	width: 100%;
+	position: absolute;
+	left: 0;
+	z-index: -1;
+}
+#header .bg {
+	top: 0;
+	height: 106px;
+}
+#banner .bg {
+	top: 106px;
+	height: 332px;
+}
+#content .bg{
+	top: 438px;
+	height: 756px;
 }
 #nav ul, #nav li {
 	list-style-type: none;
@@ -41,32 +59,27 @@ body {
 #nav a.end { border: none; }
 
 #banner {
-	background: url(../_images/bannerbg.gif) repeat-x;
-	padding: 24px 0 48px;
+	padding: 24px 0 16px;
 }
 #banner h2 {
 	font-size: 1.5em;
 }
 #content {
-	background-color: #8b8b8b;
 	padding: 2em 0;
 }
-#summary {
-	background-color: #777;
-}
+#summary {}
 #growth {
 	padding: 1.5em 0 0;
 }
 #callToAction {
-	background-color: #777;
 	padding: 3em 0;
 }
 #callToAction a {
 	color: #222;
 }
 #footer {
-	color: #000;
-	background-color: #464646;
+	color: #AAA;
+	background-color: #222;
 	padding-top: 8px;
 }
 
@@ -78,7 +91,7 @@ body {
 	font-size: .833em;
 }
 #footer a {
-	color: #000;
+	color: #AAA;
 	text-decoration: none;
 }
 
@@ -100,7 +113,7 @@ h3 {
 h4 {
 	font-size: 1.5em;
 	font-style: italic;
-	margin: 1.5em 0;
+	margin: 0.5em 0 1.5em;
 }
 h5 {
 	font-size: 1.33em;
@@ -108,7 +121,5 @@ h5 {
 h6 {
 	font-size: .833em;
 	font-weight: normal;
-}
-a {
-	color: #000;
+	color: #AAA;
 }
