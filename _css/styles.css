@@ -11,7 +11,13 @@ Icon Brown: B77E2C
 Light Compliment: F38D29
 Dark Compliment: A65A10
 */
-
+body {
+	color: #000;
+}
+#header {
+	background-color: #333;
+	padding: 6px	0;
+}
 #nav ul, #nav li {
 	list-style-type: none;
 	display: block;
@@ -21,7 +27,7 @@ Dark Compliment: A65A10
 	padding: 0;
 }
 #nav a {
-	color: #000;
+	color: #999;
 	text-decoration: none;
 	display: block;
 	width: 6.5em;
@@ -29,41 +35,28 @@ Dark Compliment: A65A10
 	margin-top: 3em;
 	font-size: 1.5em;
 	font-weight: 300;
+	text-shadow: 0 0 0 #000;
 }
 #nav a:hover { color: #777; }
 #nav a.end { border: none; }
-#nav a.active { color: #777; }
 
-#banner h1 {
-	font-weight: 300;
-	font-size: 4em;
-	margin-top: 72px;
+#banner {
+	background-color: #777;
+	padding: 24px 0;
 }
-
-#metrics h2 {
-	font-size: 3em; 
-	font-weight: 300;
+#content {
+	background-color: #333;
+	padding: 2em 0;
 }
-#metrics h3 {
-	font-size: 2em; 
-	font-weight: 300;
-	margin: .33em 0;
+#summary {
+	background-color: #777;
 }
-#metrics h4 {
-	font-size: 1.5em;
-	font-weight: 300;
-	font-style: italic;
-	margin: 1.5em 0;
+#callToAction {
+	background-color: #777;
+	padding: 3em 0;
 }
-#metrics h5 {
-	font-size: 1.33em;
-	font-weight: 300;
-}
-#callToAction h3 {
-	padding-bottom: 1em;
-}
-#callToAction a {
-	color: #000;
+#footer {
+	background-color: #222;
 }
 
 #footer ul {
@@ -76,13 +69,34 @@ Dark Compliment: A65A10
 #footer a {
 	color: #000;
 	text-decoration: none;
-	font-size: .833em;
-}
-#footer p {
-	font-size: .833em;
 }
 
-
-
-
-
+h1, h2, h3, h4, h5 {
+	font-weight: 300;
+}
+h1 {
+	font-size: 4em;
+	margin-top: 72px;
+}
+h2 {
+	font-size: 3em; 
+}
+h3 {
+	font-size: 2em; 
+	margin: .33em 0;
+}
+h4 {
+	font-size: 1.5em;
+	font-style: italic;
+	margin: 1.5em 0;
+}
+h5 {
+	font-size: 1.33em;
+}
+h6 {
+	font-size: .833em;
+	font-weight: normal;
+}
+a {
+	color: #000;
+}
