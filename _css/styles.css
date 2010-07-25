@@ -44,12 +44,18 @@ body {
 	background: url(../_images/bannerbg.gif) repeat-x;
 	padding: 24px 0 48px;
 }
+#banner h2 {
+	font-size: 1.5em;
+}
 #content {
 	background-color: #8b8b8b;
 	padding: 2em 0;
 }
 #summary {
 	background-color: #777;
+}
+#growth {
+	padding: 1.5em 0 0;
 }
 #callToAction {
 	background-color: #777;
@@ -82,7 +88,7 @@ h1, h2, h3, h4, h5 {
 }
 h1 {
 	font-size: 4em;
-	margin-top: 72px;
+	margin: 72px 0 10px;
 }
 h2 {
 	font-size: 3em; 
