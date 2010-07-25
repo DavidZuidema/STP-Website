@@ -49,6 +49,22 @@ Dark Compliment: A65A10
 	font-weight: 300;
 	margin: .33em 0;
 }
+#metrics h4 {
+	font-size: 1.5em;
+	font-weight: 300;
+	font-style: italic;
+	margin: 1.5em 0;
+}
+#metrics h5 {
+	font-size: 1.33em;
+	font-weight: 300;
+}
+#callToAction h3 {
+	padding-bottom: 1em;
+}
+#callToAction a {
+	color: #000;
+}
 
 #footer ul {
 	list-style-type: none;
