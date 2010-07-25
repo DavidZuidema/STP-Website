@@ -12,10 +12,10 @@ Light Compliment: F38D29
 Dark Compliment: A65A10
 */
 body {
-	color: #000;
+	color: #222;
 }
 #header {
-	background-color: #333;
+	background-color: #464646;
 	padding: 6px	0;
 }
 #nav ul, #nav li {
@@ -27,7 +27,7 @@ body {
 	padding: 0;
 }
 #nav a {
-	color: #999;
+	color: #b77e2c;
 	text-decoration: none;
 	display: block;
 	width: 6.5em;
@@ -37,15 +37,15 @@ body {
 	font-weight: 300;
 	text-shadow: 0 0 0 #000;
 }
-#nav a:hover { color: #777; }
+#nav a:hover { color: #27c3f3; }
 #nav a.end { border: none; }
 
 #banner {
-	background-color: #777;
-	padding: 24px 0;
+	background: url(../_images/bannerbg.gif) repeat-x;
+	padding: 24px 0 48px;
 }
 #content {
-	background-color: #333;
+	background-color: #8b8b8b;
 	padding: 2em 0;
 }
 #summary {
@@ -55,8 +55,13 @@ body {
 	background-color: #777;
 	padding: 3em 0;
 }
+#callToAction a {
+	color: #222;
+}
 #footer {
-	background-color: #222;
+	color: #000;
+	background-color: #464646;
+	padding-top: 8px;
 }
 
 #footer ul {
@@ -73,6 +78,7 @@ body {
 
 h1, h2, h3, h4, h5 {
 	font-weight: 300;
+	color: #222;
 }
 h1 {
 	font-size: 4em;
