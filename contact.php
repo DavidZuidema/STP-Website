@@ -35,7 +35,7 @@
 		<div id="content">
 			<img src="_images/contentbg.png" class="bg contact" alt="content background" />
 			<div class="container">
-				<div class="span-13 prepend-top">
+				<div class="span-16 prepend-top">
 					<?php 
 					  $to = "david@sneakytikiproductions.com";
 					  $name_field = $_POST['name'];
