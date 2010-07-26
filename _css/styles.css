@@ -15,6 +15,7 @@ body {
 	color: #222;
 	background-color: #222;
 }
+a { color: #222; }
 #header {
 	/*background: url(../_images/headerbg.png) no-repeat;*/
 	padding: 6px	0;
