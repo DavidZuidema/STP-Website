@@ -33,24 +33,39 @@
 		</div>
 	<!-- #content -->	
 		<div id="content">
-			<img src="_images/contentbg.png" class="nobanner" alt="content background" />
-			<h2>David Loves When You Send Him Email! =D</h2>
-			<p>Use your favorite mail client by clicking <a href="mailto:david@sneakytikiproductions.com">here</a></p>
-			<p>or, use this convenient form:</p>
-			<form id="frmContact" name="frmContact" method="post" action="contact.php">
-				<p>
-				<label for="name">Name</label><input name="name" type="text" class="textField" id="name" tabindex="10" maxlength="50" />
-				</p>
-				<p>
-				<label for="email">Email</label><input name="email" type="text" class="textField" id="email" tabindex="11" maxlength="50" />
-				</p>
-				<p>
-				<label for="message">What's on your mind?</label><textarea name="message" cols="35" rows="5" id="message" tabindex="12"></textarea>
-				</p>
-				<p>
-				<input name="submit" type="submit" id="submit" tabindex="14" value="Send Message, yay!" />
-				</p>
-			</form>
+			<img src="_images/contentbg.png" class="bg contact" alt="content background" />
+			<div class="container">
+				<div class="span-13 prepend-top">
+					<h3>David Loves When You Send Him Email! =D</h3>
+					<h5>Use your favorite mail client by clicking <a href="mailto:david@sneakytikiproductions.com">here</a></h5>
+					<h5>or, use this convenient form:</h5>
+				</div>
+				<div class="span-11 last">
+					<form id="frmContact" method="post" action="contact.php">
+						<fieldset>
+							<legend>Convenient Form!</legend>
+							<p>
+								<label for="name">Name</label>
+								<br />
+								<input class="title" name="name" type="text" class="textField" id="name" maxlength="50" />
+							</p>
+							<p>
+								<label for="email">Email</label>
+								<br />
+								<input class="title" name="email" type="text" class="textField" id="email" maxlength="50" />
+							</p>
+							<p>
+								<label for="message">What Would Video Help You Accomplish?</label>
+								<br />
+								<textarea name="message" id="message" rows="3" cols="15"></textarea>
+							</p>
+							<p>
+							<input name="submit" type="submit" id="submit" value="Send Message, yay!" />
+							</p>
+						</fieldset>
+					</form>
+				</div>
+			</div>
 		</div>
 	<!-- footer -->
 		<div id="footer">
