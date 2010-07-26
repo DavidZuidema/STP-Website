@@ -88,6 +88,14 @@ a { color: #222; }
 	font-size: 1.5em;
 	font-weight: 300;
 }
+.super {
+	vertical-align: top;
+	font-size: 9px;
+	text-decoration: none;
+}
+#content a:hover {
+	color: #77521C;
+}
 #growth {
 	padding: 1.5em 0 0;
 }
@@ -119,7 +127,6 @@ a { color: #222; }
 .extraspace {
 	margin-bottom: 471px;
 }
-
 textarea {
 	font-size: 1.5em;
 }
