@@ -108,11 +108,13 @@ a { color: #222; }
 }
 #footer li {
 	line-height: 1.5em;
-	font-size: .833em;
+	font-size: 1em;
+	font-weight: 300;
 }
 #footer a {
 	color: #AAA;
 	text-decoration: none;
+	font-size: 1em;
 }
 
 h1, h2, h3, h4, h5 {
@@ -139,7 +141,7 @@ h5 {
 	font-size: 1.33em;
 }
 h6 {
-	font-size: .833em;
-	font-weight: normal;
+	font-size: 1em;
+	font-weight: 300;
 	color: #AAA;
 }
