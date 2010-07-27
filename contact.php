@@ -47,7 +47,7 @@
 
 					   mail($to, $subject, $body);
 
-					  echo "<h3>Thanks for the message!</h3><h5>I respond to my email twice daily and always within 24 hours.</h5><h5 class="extraspace">-David</h5>"; 
+					  echo "<h3>Thanks for the message!</h3><h5>I respond to my email twice daily and always within 24 hours.</h5><h5 class='extraspace'>-David</h5>"; 
 					?>
 				</div>
 			</div>
