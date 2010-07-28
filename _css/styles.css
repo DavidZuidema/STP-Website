@@ -82,6 +82,15 @@ a { color: #222; }
 /* Content Styles */
 #content { padding: 2em 0; }
 #content a:hover { color: #77521C; }
+#sumbg { 
+	background: url(../_images/summarybg.png) no-repeat; 
+	padding: 16px 0 25px 28px;
+}
+#learnmore {
+	background: url(../_images/learnmore.png) no-repeat;
+	padding: 15px 0 19px 20px;
+}
+#learnmore h3 { margin: 0;}
 #growth { padding: 1.5em 0 0; }
 #callToAction { padding: 3em 0; }
 #callToAction a { color: #222; }
@@ -136,7 +145,7 @@ h3 {
 h4 {
 	font-size: 1.5em;
 	font-style: italic;
-	margin: 0.5em 0 1.5em;
+	margin: 0;
 }
 h5 { font-size: 1.33em; }
 h6 {
