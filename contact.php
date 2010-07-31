@@ -1,12 +1,12 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
-	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
+            "http://www.w3.org/TR/html4/strict.dtd">
+<html lang="en">
 	<head>
-		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 		<title>Sneaky Tiki Productions</title>
-		<link rel="stylesheet" href="_css/screen.css" type="text/css" media="screen, projection" />
-		<!--[if lt IE 8]><link rel="stylesheet" href="ie.css" type="text/css" media="screen, projection" /><![endif]-->
-		<link rel="stylesheet" href="_css/styles.css" type="text/css" />
+		<link rel="stylesheet" href="_css/screen.css" type="text/css">
+		<!--[if lt IE 8]><link rel="stylesheet" href="ie.css" type="text/css"><![endif]-->
+		<link rel="stylesheet" href="_css/styles.css" type="text/css">
 		<!-- JavaScript for delivering XHTML strict compliant links in new windows -->
 		<script type="text/javascript" src="external.js"></script>
 		<!-- Google Analytics -->
@@ -27,11 +27,11 @@
 	<body>
 	<!-- #header -->
 		<div id="header">
-			<img src="_images/headerbg.png" class="bg" alt="header background" />
+			<img src="_images/headerbg.png" class="bg" alt="header background">
 			<div class="container">
 				<div class="span-24 last">
 					<div class="span-5">
-						<a href="index.htm"><img src="_images/logo.png" alt="logo" /></a>
+						<a href="index.htm"><img src="_images/logo.png" alt="logo"></a>
 					</div>
 				<!-- #nav -->
 					<div id="nav" class="span-16 prepend-3 last">
@@ -47,7 +47,7 @@
 		</div>
 	<!-- #content -->	
 		<div id="content">
-			<img src="_images/contentbg.png" class="bg contact" alt="content background" />
+			<img src="_images/contentbg.png" class="bg contact" alt="content background">
 			<div class="container">
 				<div class="span-16 prepend-top">
 					<?php 
