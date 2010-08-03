@@ -5,7 +5,7 @@
 		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 		<title>Sneaky Tiki Productions</title>
 		<link rel="stylesheet" href="_css/screen.css" type="text/css">
-		<!--[if lt IE 8]><link rel="stylesheet" href="ie.css" type="text/css"><![endif]-->
+		<!--[if lt IE 8]><link rel="stylesheet" href="_css/ie.css" type="text/css"><![endif]-->
 		<link rel="stylesheet" href="_css/styles.css" type="text/css">
 		<!-- JavaScript for delivering XHTML strict compliant links in new windows -->
 		<script type="text/javascript" src="external.js"></script>
